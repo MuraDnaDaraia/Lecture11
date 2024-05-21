@@ -1,0 +1,196 @@
+body{
+    width: 1550px;
+    overflow-x: hidden;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    width: 341px;
+    height: 200px;
+    margin-left: 133px;
+}
+header h1{
+    font-size: 50px;
+}
+header h2{
+    font-size: 50px;
+}
+header h5{
+    font-size: 150%;
+    color: #5968F4;
+}
+.section1{
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+form{
+    width: 100%;
+    display: flex !important;
+    flex-direction: row;
+    margin: 0px 130px;
+    justify-content: center;
+}
+textarea{
+    height: 298px;
+    width: 868px;
+}
+.secondpart{
+    display: flex;
+    flex-direction: column !important;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .submit-button {
+    margin-top: 10px;
+  }
+  .submit-button input[type="submit"] {
+    background-color:  #5968F4;
+    color: white;
+  }
+  input{
+    width: 370px;
+    height: 59px;
+    margin-left: 20px;
+  }
+  .section2 div div{
+    background-color:#5968F4;
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+  }
+.section2 div{
+    width: 250px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .section2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .section2 div * {
+    margin: 5px 0px;
+  }
+  .section2div1{
+    background-image: url(../img/Email.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .section2div2{
+    background-image: url(../img/Phone.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .section2div3{
+    background-image: url(../img/Location.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  main header{
+    width: 450px;
+  }
+  .section3div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  footer{
+    width: 100%;
+    height: 372px;
+    background-color: black;
+    color: wheat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer div {
+    display: flex;
+    width: 295px ;
+    height: 280px;
+  }
+  .footerdiv1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+  }
+  .footerdiv1 * {
+    margin: 15px 0px;
+  }
+  
+  .footerdiv1 h1{
+    font-size: 150%;
+    
+  }
+  .ellipse1, .ellipse2, .ellipse3{
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .ellipsediv{
+    display: flex;
+    flex-direction: row;
+  }
+  .ellipse1{
+    background-image: url(../img/Ellipse\ 5.svg);
+  }
+  .ellipse2{
+    background-image: url(../img/Ellipse\ 6.svg) ;
+  }
+  .ellipse3{
+    background-image: url(../img/Ellipse\ 7.svg);
+  }
+  .footerdiv2{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+  }
+  .footerdiv2 p{
+    color: blue;
+  }
+  .footerdiv2 h1{
+    font-size: 150%;
+  }
+  .footerdiv3 h1{
+    font-size: 150%;
+  }
+  .footerdiv3{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+  }
+  .footerdiv4{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 210px;
+  }
+  .footerdiv4 h1{
+    font-size: 150%;
+    margin-bottom: 10px;
+  }
+  .footerdiv4 div img {
+    width: 21px;
+    height: 16px;
+  }
+  .footerdiv3 p{
+    color: blue;
+  }
+
+
+
+
